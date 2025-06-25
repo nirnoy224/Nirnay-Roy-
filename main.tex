@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % For dummy text
+
+%------ Header and Footer settings ------
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Document Title}} % Header left
+\rfoot{\thepage}                % Footer right - page number
+\lfoot{Institute Name}          % Footer left
+
+\setlength{\headheight}{15pt}
+
+%------------ Begin Document ------------
+\begin{document}
+
+\section*{Section1}
+\lipsum[1] % Generates dummy text (paragraph 1)
+
+\section*{Section2}
+\lipsum[2] % Generates dummy text (paragraph 2)
+
+\end{document}
+
+
+
